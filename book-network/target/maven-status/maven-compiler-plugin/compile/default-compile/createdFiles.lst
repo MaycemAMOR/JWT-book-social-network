@@ -1,0 +1,10 @@
+com\maycemamor\book\role\Role$RoleBuilder.class
+com\maycemamor\book\user\TokenRepository.class
+com\maycemamor\book\role\Role.class
+com\maycemamor\book\user\User.class
+com\maycemamor\book\user\UserRepository.class
+com\maycemamor\book\user\Token$TokenBuilder.class
+com\maycemamor\book\BookNetworkApplication.class
+com\maycemamor\book\role\RoleRepository.class
+com\maycemamor\book\user\User$UserBuilder.class
+com\maycemamor\book\user\Token.class
