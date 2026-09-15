@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="504476cc-57de-4b6a-8227-0a497ab1650c" name="Changes" comment="configure the project">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/role/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/role/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/user/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="504476cc-57de-4b6a-8227-0a497ab1650c" name="Changes" comment="Implement the security configuration class&#10;Implement the Authentication provider&#10;Implement the User details Service&#10;Implement the JwtFilter class&#10;Implement the JwtService class&#10;finalize the JwtFilter class">
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/config/BeansConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/BookNetworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/BookNetworkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker-compose.yml.postgres: Compose Deployment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mayce/Desktop/formation/JWT Spring boot Angular/book-social-network/book-network",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.book-network [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mayce/Desktop/formation/JWT Spring boot Angular/book-social-network/book-network&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.maycemamor.book.security" />
+    </key>
+  </component>
   <component name="RunManager" selected="Docker.docker-compose.yml.postgres: Compose Deployment">
     <configuration name="BookNetworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="book-network" />
@@ -116,7 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1789378534563</updated>
       <workItem from="1789378535651" duration="4782000" />
-      <workItem from="1789395001154" duration="3652000" />
+      <workItem from="1789395001154" duration="9073000" />
+      <workItem from="1789477484738" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="configure the project">
       <option name="closed" value="true" />
@@ -126,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789393425147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create class and repository : user, role, token.">
+      <option name="closed" value="true" />
+      <created>1789399354920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789399354920</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create class and repository : user, role, token.">
+      <option name="closed" value="true" />
+      <created>1789399383316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789399383316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +153,8 @@
       <path value="$PROJECT_DIR$/book-network" />
     </ignored-roots>
     <MESSAGE value="configure the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure the project" />
+    <MESSAGE value="create class and repository : user, role, token." />
+    <MESSAGE value="Implement the security configuration class&#10;Implement the Authentication provider&#10;Implement the User details Service&#10;Implement the JwtFilter class&#10;Implement the JwtService class&#10;finalize the JwtFilter class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the security configuration class&#10;Implement the Authentication provider&#10;Implement the User details Service&#10;Implement the JwtFilter class&#10;Implement the JwtService class&#10;finalize the JwtFilter class" />
   </component>
 </project>
