@@ -33,7 +33,7 @@ spring:
 application:
   security:
     jwt:
-      secret-key: :^ve65Fu2mxVjw!2
+      secret-key: DAm5TjPjs0BvNRPz26t8+dgZjZKKOXOGiEljaWljMAM=
       expiration: 86400000
   mailing:
     frontend:
@@ -42,4 +42,7 @@ application:
 server:
   port: 8088
 
-
+logging:
+  level:
+    org:
+      springframework: debug
