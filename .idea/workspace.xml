@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="504476cc-57de-4b6a-8227-0a497ab1650c" name="Changes" comment="Exception handling">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/handler/BusinessErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/handler/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commande angular.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/target/surefire-reports/TEST-com.maycemamor.book.BookNetworkApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/surefire-reports/TEST-com.maycemamor.book.BookNetworkApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/target/surefire-reports/com.maycemamor.book.BookNetworkApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/surefire-reports/com.maycemamor.book.BookNetworkApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +141,7 @@
       <workItem from="1789395001154" duration="9073000" />
       <workItem from="1789477484738" duration="14092000" />
       <workItem from="1789549360076" duration="5319000" />
-      <workItem from="1789557480640" duration="9660000" />
+      <workItem from="1789557480640" duration="11127000" />
     </task>
     <task id="LOCAL-00001" summary="configure the project">
       <option name="closed" value="true" />
@@ -197,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789560385192</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exception handling">
+      <option name="closed" value="true" />
+      <created>1789568805565</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789568805565</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,4 @@
+ng new book-network-ui --no-standalone --defaults ; create the project
+ng serve : to start the project
+npm i bootstrap@5.3.8 : to install Bootstrap
+npm install @fortawesome/fontawesome-free : to install fortawesome
