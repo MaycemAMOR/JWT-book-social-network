@@ -82,7 +82,7 @@ public class User implements UserDetails, Principal {
         return !accountLocked;
     }
 
-    private String getFullName() {
+    public String getFullName() {
         return firstName + " " + lastName;
     }
 

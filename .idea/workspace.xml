@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="504476cc-57de-4b6a-8227-0a497ab1650c" name="Changes" comment="Implement the security configuration class&#10;Implement the Authentication provider&#10;Implement the User details Service&#10;Implement the JwtFilter class&#10;Implement the JwtService class&#10;finalize the JwtFilter class">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/config/BeansConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/auth/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/auth/RegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/email/EmailTemplateName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/resources/templates/activate_account.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/BookNetworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/BookNetworkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/user/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/user/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/maycemamor/book/user/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/target/classes/com/maycemamor/book/BookNetworkApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/classes/com/maycemamor/book/BookNetworkApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/target/classes/com/maycemamor/book/user/Token$TokenBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/classes/com/maycemamor/book/user/Token$TokenBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/target/classes/com/maycemamor/book/user/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/classes/com/maycemamor/book/user/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/target/classes/com/maycemamor/book/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/target/classes/com/maycemamor/book/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +38,15 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/7.1.1/spring-security-crypto-7.1.1.jar!/org/springframework/security/crypto/password/PasswordEncoder.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -45,9 +64,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Docker.docker-compose.yml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Maven.book-network [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BookNetworkApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mayce/Desktop/formation/JWT Spring boot Angular/book-social-network/book-network&quot;,
@@ -56,16 +81,23 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.maycemamor.book.email" />
+      <recent name="com.maycemamor.book.auth" />
       <recent name="com.maycemamor.book.security" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.postgres: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.BookNetworkApplication">
     <configuration name="BookNetworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="book-network" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.maycemamor.book.BookNetworkApplication" />
@@ -76,6 +108,14 @@
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
       </deployment>
       <method v="2" />
     </configuration>
@@ -94,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -116,7 +157,8 @@
       <updated>1789378534563</updated>
       <workItem from="1789378535651" duration="4782000" />
       <workItem from="1789395001154" duration="9073000" />
-      <workItem from="1789477484738" duration="1235000" />
+      <workItem from="1789477484738" duration="14092000" />
+      <workItem from="1789549360076" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="configure the project">
       <option name="closed" value="true" />
@@ -142,11 +184,30 @@
       <option name="project" value="LOCAL" />
       <updated>1789399383316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implement the security configuration class&#10;Implement the Authentication provider&#10;Implement the User details Service&#10;Implement the JwtFilter class&#10;Implement the JwtService class&#10;finalize the JwtFilter class">
+      <option name="closed" value="true" />
+      <created>1789478801942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789478801942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -156,5 +217,9 @@
     <MESSAGE value="create class and repository : user, role, token." />
     <MESSAGE value="Implement the security configuration class&#10;Implement the Authentication provider&#10;Implement the User details Service&#10;Implement the JwtFilter class&#10;Implement the JwtService class&#10;finalize the JwtFilter class" />
     <option name="LAST_COMMIT_MESSAGE" value="Implement the security configuration class&#10;Implement the Authentication provider&#10;Implement the User details Service&#10;Implement the JwtFilter class&#10;Implement the JwtService class&#10;finalize the JwtFilter class" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
