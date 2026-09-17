@@ -4,9 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="504476cc-57de-4b6a-8227-0a497ab1650c" name="Changes" comment="Exception handling">
-      <change afterPath="$PROJECT_DIR$/commande angular.txt" afterDir="false" />
+    <list default="true" id="504476cc-57de-4b6a-8227-0a497ab1650c" name="Changes" comment="Create the angular application">
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/openapi/openapi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef0a9076-0661-4636-8ef7-663ecdc64baa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef0a9076-0661-4636-8ef7-663ecdc64baa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/.vscode/extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app-module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app-routing-module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commande angular.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commande angular.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +103,9 @@
       <recent name="com.maycemamor.book.email" />
       <recent name="com.maycemamor.book.security" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mayce\Desktop\formation\JWT Spring boot Angular\book-social-network\book-network-ui\src\openapi" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BookNetworkApplication">
     <configuration name="BookNetworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -141,7 +169,8 @@
       <workItem from="1789395001154" duration="9073000" />
       <workItem from="1789477484738" duration="14092000" />
       <workItem from="1789549360076" duration="5319000" />
-      <workItem from="1789557480640" duration="11127000" />
+      <workItem from="1789557480640" duration="20645000" />
+      <workItem from="1789648150950" duration="6876000" />
     </task>
     <task id="LOCAL-00001" summary="configure the project">
       <option name="closed" value="true" />
@@ -199,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789568805565</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create the angular application">
+      <option name="closed" value="true" />
+      <created>1789570045352</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789570045352</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +263,8 @@
     <MESSAGE value="Create the authentication controller&#10;Implement the register method&#10;Implement the Email sender service&#10;Test the registration" />
     <MESSAGE value="Implement the login method&#10;Implement the activate account method&#10;Test the full authentication flow&#10;Exception handling" />
     <MESSAGE value="Exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception handling" />
+    <MESSAGE value="Create the angular application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the angular application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
