@@ -1,33 +1,29 @@
 /* tslint:disable */
 /* eslint-disable */
 import {ModuleWithProviders, NgModule, Optional, SkipSelf} from '@angular/core';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {ApiConfiguration, ApiConfigurationParams} from './api-configuration';
 
 import {FeedbackService} from './services/feedback.service';
 import {BookService} from './services/book.service';
 import {AuthenticationService} from './services/authentication.service';
 import {BrowserModule} from "@angular/platform-browser";
-import {AppComponent} from "../app.component";
 
 /**
  * Module that provides all services and configuration.
  */
 @NgModule({
   imports: [
-    BrowserModule,
-    HttpClientModule
+    BrowserModule
   ],
   exports: [],
-  declarations: [AppComponent],
+  declarations: [],
   providers: [
     FeedbackService,
     BookService,
     AuthenticationService,
-    ApiConfiguration,
-    HttpClient
-  ],
-  bootstrap: [AppComponent]
+    ApiConfiguration
+  ]
 })
 export class ApiModule {
   static forRoot(params: ApiConfigurationParams): ModuleWithProviders<ApiModule> {

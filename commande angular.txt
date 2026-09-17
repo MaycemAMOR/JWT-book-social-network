@@ -17,18 +17,13 @@ Angular: <error>
 ... animations, common, compiler, compiler-cli, core, forms
 ... platform-browser, platform-browser-dynamic, router
 
-Package                         Version
----------------------------------------------------------
-@angular-devkit/architect       0.1601.4 (cli-only)
-@angular-devkit/build-angular   <error>
-@angular-devkit/core            16.1.4 (cli-only)
-@angular-devkit/schematics      16.1.4 (cli-only)
-@angular/cli                    16.1.4 (cli-only)
-@schematics/angular             16.1.4 (cli-only)
-rxjs                            7.8.1 (cli-only)
-typescript                      <error>
 
-
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1601.4 (cli-only)
+@angular-devkit/core         16.1.4 (cli-only)
+@angular-devkit/schematics   16.1.4 (cli-only)
+@schematics/angular          16.1.4 (cli-only)
 
 
 ng new book-network-ui --no-standalone --defaults ; create the project
@@ -45,3 +40,32 @@ add this line : <<"api-gen": "ng-openapi-gen --input ./src/app/openapi/openapi.j
 npm run api-gen to generate the service folder
 
 ng g c login  : to create a new login component
+
+PS C:\Users\mayce\Desktop\formation\JWT Spring boot Angular\book-social-network\book-network-ui> ng generate module app-routing --flat --module=app
+CREATE src/app/app-routing.module.ts (196 bytes)
+UPDATE src/app/app.module.ts (630 bytes)
+==> to generate the app-routing.module.ts
+an after that copy paste this configuration :
+
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module'; // Import du routage
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule // Déclaré ici
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+
+ng g s token to create the token service
+CREATE src/app/services/token/token.service.spec.ts (352 bytes)
+CREATE src/app/services/token/token.service.ts (134 bytes)
