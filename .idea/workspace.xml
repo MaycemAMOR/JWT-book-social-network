@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="504476cc-57de-4b6a-8227-0a497ab1650c" name="Changes" comment="Implement the Registration page">
+    <list default="true" id="504476cc-57de-4b6a-8227-0a497ab1650c" name="Changes" comment="Implement the activate account Page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commande angular.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commande angular.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +146,7 @@
       <workItem from="1789549360076" duration="5319000" />
       <workItem from="1789557480640" duration="20645000" />
       <workItem from="1789648150950" duration="15433000" />
-      <workItem from="1789736956013" duration="6595000" />
+      <workItem from="1789736956013" duration="7193000" />
     </task>
     <task id="LOCAL-00001" summary="configure the project">
       <option name="closed" value="true" />
@@ -240,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789741033911</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implement the activate account Page.">
+      <option name="closed" value="true" />
+      <created>1789752793570</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1789752793570</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +275,8 @@
     <MESSAGE value="recreate the angular application&#10;Angular CLI: 16.1.4&#10;Node: 18.20.4&#10;Package Manager: npm 10.7.0" />
     <MESSAGE value="Generate the HTTP Services using the power of OpenApi&#10;Implement the Login page" />
     <MESSAGE value="Implement the Registration page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement the Registration page" />
+    <MESSAGE value="Implement the activate account Page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the activate account Page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
