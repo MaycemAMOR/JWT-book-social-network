@@ -66,6 +66,8 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 
 
-ng g s token to create the token service
+ng g s token  : to create the token service
 CREATE src/app/services/token/token.service.spec.ts (352 bytes)
 CREATE src/app/services/token/token.service.ts (134 bytes)
+
+ng g c regiter : to create the register component
