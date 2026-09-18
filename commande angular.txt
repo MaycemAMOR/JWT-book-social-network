@@ -71,3 +71,5 @@ CREATE src/app/services/token/token.service.spec.ts (352 bytes)
 CREATE src/app/services/token/token.service.ts (134 bytes)
 
 ng g c regiter : to create the register component
+
+npm i angular-code-input : to install the angular-code-input
